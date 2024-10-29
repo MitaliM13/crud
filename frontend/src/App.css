@@ -8,7 +8,7 @@ body {
 
 .App {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: 20px;
   margin: auto;
@@ -88,6 +88,7 @@ td {
 .form {
   background-color: #f9f9f9;
   padding: 20px;
+  margin-top: 10%;
   border-radius: 8px;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
   max-width: 400px;

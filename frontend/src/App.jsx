@@ -14,7 +14,7 @@ const App = () => {
   useEffect(() => {
     fetchProducts();
   }, []);
-
+ 
   const fetchProducts = async () => {
     try {
       const response = await fetch('http://localhost:3000/products');
